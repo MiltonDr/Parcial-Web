@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Consultar cocteles</title>
+  </head>
+  <body id="container">
+    <h1>Consulta cocteleria</h1>
+
+    <input type="text" name="input_coctel" id="input_coctel" />
+    <button id="button_consultar" onclick="obetenerValorInput()">Consultar</button>
+
+    <div id="InformacionCocteleria">
+      <h3>Informacion Coctel</h3>
+      <div id="showInfo"></div>
+    </div>
+  </body>
+</html>

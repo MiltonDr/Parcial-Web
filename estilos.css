@@ -1,0 +1,56 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: floralwhite;
+  align-items: center;
+}
+
+#input_coctel {
+  width: 80%;
+  height: 15px;
+  border-radius: 30px;
+  font-size: large;
+  padding-left: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+#button_consultar {
+  width: 25%;
+  height: 25px;
+  border-radius: 15px;
+  margin-top: 20px;
+  font-size: large;
+}
+
+#InformacionCocteleria {
+  width: 80%;
+  height: 400px;
+  background-color: lightgray;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#showInfo {
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.coctel-img {
+  max-width: 50%;
+  max-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
